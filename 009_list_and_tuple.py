@@ -121,7 +121,7 @@ print(my_tuple)
 print(type(my_tuple))  # tuple
 
 # count return how many element match the passed in value
-print("count: ", my_tuple, my_tuple.count(1))  # True counts 1 omfg
+print("count: ", my_tuple, my_tuple.count(1))  # True is 1 omfg
 print(my_tuple.index(True))  # return index of the passed in value in a tuple
 
 # ##############################################copy

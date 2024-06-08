@@ -12,3 +12,6 @@ abs(-50) # 50 abs velue
 max(1,2,3)#3
 max([3,2,1])#3 
 max(['mike', 'zod'])# zod, alphabetic order
+
+print("1+1") # 1 + 1
+print(eval("1+1")) # 2

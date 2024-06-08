@@ -1,5 +1,5 @@
+import sys
 
-height = 4
 # noob
 # print("     #")
 # print("    ###")
@@ -19,7 +19,13 @@ height = 4
 
 
 # pro
-height = int(input("How high do you want your tree be?"))
+user_input = input("How high do you want your tree be?")
+
+
+while(not user_input.isnumeric()): 
+    user_input = input("How high do you want your tree be?")
+
+height = int(user_input)
 
 def print_row(n, buttom_len):
     char = ''
@@ -37,7 +43,6 @@ def print_tree(height):
     # Print the trunk
     for _ in range(height):
         print('###'.center(bottom_len, ' '))
-
 
 
 # height = input('how height do you want the tree be?')
