@@ -52,7 +52,7 @@ else:
 for x in range(0, 10, 2):  # 0 2 4 6 8
     print(x)
 else:
-    print('it\'s over')
+    print('it\'s over') # run after loop
 
 r = range(0, 10, 2)
 print(type(r))  # there is a type called range!!!
