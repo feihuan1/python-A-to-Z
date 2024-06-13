@@ -26,7 +26,8 @@ def random_fun_fact():
     ]
     index = choice("0123456789")
 
-    print(fun_fact[int(index)])
+    print(fun_fact[int(index)]) 
+    
 
 
 # do this if want use it as module
